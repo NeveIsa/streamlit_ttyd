@@ -13,8 +13,13 @@ pip install git+https://github.com/NeveIsa/streamlit_ttyd
 ```python
 from streamlit_ttyd import terminal
 
-streamlit.text("Here is a terminal for you that shows all the processes running on your system using the htop command")
-ttydprocess, port = terminal(cmd = "htop", readonly = True, exit_on_disconnect = True, height = 500)
+streamlit.text("Terminal showing processes running on your system using the htop command")
+
+ttydprocess, port = terminal(cmd = "htop",
+                             readonly = True,
+                            exit_on_disconnect = True,
+                            height = 500)
+
 streamlit.text(f"ttyd server is running on port : {port}")
 
 ```
