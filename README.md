@@ -15,16 +15,18 @@ Open an issue if you need support for windows or other platforms.
 ```python
 import streamlit as st
 from streamlit_ttyd import terminal
+import time 
 
-streamlit.text("Terminal showing processes running on your system using the htop command")
+st.text("Terminal showing processes running on your system using the htop command")
 
 # start the ttyd server and display the terminal on streamlit
-ttydprocess, port = terminal(cmd = "htop")
+ttydprocess, port = terminal()
 
 # info on ttyd port
-streamlit.text(f"ttyd server is running on port : {port}")
+st.text(f"ttyd server is running on port : {port}")
 
-# kill the ttyd server
+# kill the ttyd server after a minute
+time.sleep(60)
 ttydprocess.kill()
 ```
 
