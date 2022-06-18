@@ -34,8 +34,9 @@ def get_ttyd():
 
 
 def terminal(
-    cmd: str = "echo terminal-speaking... && sleep 99999999",
+    cmd: str = "echo terminal-speaking... && sleep 99999",
     readonly: bool = False,
+    host: str = "http://localhost",
     port: int = 0,
     exit_on_disconnect: bool = True,
     height: int = 400,
