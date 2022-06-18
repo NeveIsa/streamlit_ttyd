@@ -34,7 +34,7 @@ def get_ttyd():
 
 
 def terminal(
-    cmd: str = "echo 'Hi from the terminal...' && sleep 99999999",
+    cmd: str = "echo terminal-speaking && sleep 99999999",
     readonly: bool = False,
     port: int = 0,
     exit_on_disconnect: bool = True,
