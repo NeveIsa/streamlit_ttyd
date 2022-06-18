@@ -30,7 +30,10 @@ time.sleep(60)
 ttydprocess.kill()
 ```
 
+### Demo 
+---
 ![demo](demo.png)
+---
 
 > Arguments for terminal()
 
