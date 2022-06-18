@@ -13,6 +13,7 @@ Open an issue if you need support for windows or other platforms.
 ### Usage
 
 ```python
+import streamlit as st
 from streamlit_ttyd import terminal
 
 streamlit.text("Terminal showing processes running on your system using the htop command")
