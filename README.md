@@ -25,7 +25,7 @@ streamlit.text(f"ttyd server is running on port : {port}")
 ttydproc.kill()
 ```
 
-> Arguments for terminal
+> Arguments for terminal()
 
 - cmd: str -> the command to run 
 - readonly: bool -> readonly terminal (default -> False)
