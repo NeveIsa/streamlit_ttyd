@@ -58,6 +58,6 @@ def terminal(
         stderr=subprocess.PIPE,
         shell=True,
     )
-    iframe(f"http://localhost:{port}", height=height)
+    iframe(f"{host}:{port}", height=height)
 
     return ttydproc, port
