@@ -30,6 +30,8 @@ time.sleep(60)
 ttydprocess.kill()
 ```
 
+![demo](demo.png)
+
 > Arguments for terminal()
 
 - cmd: str -> the command to run 
