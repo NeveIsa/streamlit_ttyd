@@ -4,7 +4,7 @@ streamlit_ttyd implements a terminal plugin for streamlit using the amazing [tty
 
 ### Installation
 
-pip install git+https://github.com/NeveIsa/streamlit_ttyd
+`pip install git+https://github.com/NeveIsa/streamlit_ttyd`
 
 
 
