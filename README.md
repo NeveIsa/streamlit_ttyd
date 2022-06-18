@@ -25,7 +25,7 @@ ttydprocess, port = terminal(cmd = "htop")
 streamlit.text(f"ttyd server is running on port : {port}")
 
 # kill the ttyd server
-ttydproc.kill()
+ttydprocess.kill()
 ```
 
 > Arguments for terminal()
