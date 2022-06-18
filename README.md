@@ -1,6 +1,8 @@
 # streamlit_ttyd
 
 streamlit_ttyd implements a terminal plugin for streamlit using the amazing [ttyd](https://github.com/tsl0922/ttyd) project.
+As of now, only Linux like platforms are supported.
+Open an issue if you need support for windows or other platforms. 
 
 ### Installation
 
