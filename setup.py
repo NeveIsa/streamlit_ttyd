@@ -9,5 +9,5 @@ setup(
         "terminal",
     ],
     packages=find_packages(),
-    install_requires=["streamlit", "port-for"],
+    install_requires=["streamlit", "port-for","psutil"],
 )
